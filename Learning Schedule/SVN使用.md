@@ -37,23 +37,3 @@ _answer： 当不知道同一文件正在被操作的时候需要先更新本地
 ## **当网络状况不是很好，且身处国外，如果要做好版本提交控制的解决方法** ##
 
 answer: 使用离线提交方案，当本地开发完成的时候，立即提交，网络状况良好的时候自动上传到国内服务器版本控制中心，网络不好时会保存在本地仓， ok， 这就是解决方案之一
-
-## 无序列表 ##
-
-* item1
-  * child item1.1
-    * grandchild item1.1.1
-    * child item1.2
-* item4
-* Nested item2
-  * item3
-* List item
-* List item
-
-1. List item1 此处有序表跟下面的无需表无法组成list
-
-[百度](https://www.baidu.com)
-
-<!-- [idrink]: <https://www.baidu.com> "Optional Title Here" -->
-
-[idrink]: <https://www.baidu.com> 'Optional Title Here'
