@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.c-year {
+	position: relative;
+	width: 60px;
+	height: 250px;
+	list-style: none;
+	background: rgba(0, 0, 0, .8);
+	color: #ffffff;
+}
+
+.c-year li {
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.c-month {
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	width: 400px;
+	color: #ffffff;
+	background: rgba(0, 0, 0, .7);
+	text-align: center;
+	/*隐藏二级菜单*/
+	display: none;
+}
+
+.c-month li {
+	display: inline-block;
+}
+
+.c-day {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	background: rgba(0, 0, 0, .6);
+	display: inline;
+	/*隐藏三级菜单*/
+	display: none;
+}
+
+
+/*给所有li在hover时添加背景颜色*/
+
+.c-year li:hover {
+	background: rgba(255, 255, 255, .2);
+}
+
+
+/*当鼠标hover到年份时让月份显示*/
+
+.c-year li:hover .c-month {
+	display: block;
+}
+
+
+/*当鼠标hover到月份时让日期显示*/
+
+.c-month li:hover .c-day {
+	display: block;
+}
